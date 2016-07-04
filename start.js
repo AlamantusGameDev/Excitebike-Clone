@@ -5,8 +5,8 @@ OS.S.numberOfScriptsToLoad = 1;
 OS.SetCamera({
 	width: 640,
 	height: 480,
-	hBorder: 64,
-	vBorder: 48
+	hBorder: 320,  // Keep character completely centered at all times.
+	vBorder: 240
 });
 
 function start () {

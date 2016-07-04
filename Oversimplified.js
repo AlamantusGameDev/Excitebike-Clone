@@ -558,7 +558,7 @@ Oversimplified.Room.prototype.Draw = function () {
     }
 
     this.DrawBelow();    //Draw this before any objects are drawn
-    
+
     for (var i = 0; i < this.drawOrder.length; i++) {
         if (typeof this.objects[this.drawOrder[i]] !== 'undefined') {
             this.objects[this.drawOrder[i]].Draw();
